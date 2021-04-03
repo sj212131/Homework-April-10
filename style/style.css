@@ -1,0 +1,22 @@
+:root {
+    --background_colo:#fefefe;
+    --text_color:#4e4e4e;
+    --card_bg_color:#bada55;
+    --box-shadow: #ccc; 
+}
+
+.card-title {
+    background-color: var(--card_bg_color) !important;
+}
+
+h2 {
+    text-align:center !important;
+}
+
+.card {
+    margin: 1rem;
+}
+
+.card-text {
+    margin: 0.75rem;
+}
