@@ -75,7 +75,7 @@ function addTeamMembers() {
                     addIntern();
                     break;
 
-                case "No, my team is complete":
+                case "No, finished input":
                     console.log("ready for conpliet")
                     compileTeam();
                     console.log("Done for conpliet")
