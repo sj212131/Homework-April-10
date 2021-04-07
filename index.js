@@ -76,9 +76,9 @@ function addTeamMembers() {
                     break;
 
                 case "No, finished input":
-                    console.log("ready for conpliet")
+                    console.log("ready")
                     compileTeam();
-                    console.log("Done for conpliet")
+                    console.log("Done")
                     break;
             }
         });
