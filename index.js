@@ -184,7 +184,7 @@ function compileTeam() {
         }
         if (finalTeamArray[i].github) {
             object += `
-            <p>GitHub: <a href="https://github.com/${finalTeamArray[i].github}">${finalTeamArray[i].github}</a></p>
+            <p>GitHub: <a href="https://github.com/${finalTeamArray[i].github}" target="_blank">${finalTeamArray[i].github}</a></p>
             `
         }
         if (finalTeamArray[i].school) {
